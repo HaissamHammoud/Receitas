@@ -1,2 +1,0 @@
-# Receitas
-Site de receitas
