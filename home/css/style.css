@@ -1,0 +1,518 @@
+@charset "UTF-8";
+
+html, body{
+    /* height: 100%;*/
+    /* width: 100%; */
+    /*margin: 0; */
+
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+div{
+    height: 100%;
+
+}
+
+
+
+.header-receitas{
+    height: 120px;
+    width: auto;
+    background: #b8d8c0;
+    
+}
+
+.navbar-receitas{
+    height: 70px;
+    width: auto;
+    background: #cfdfd2;
+    /* margin-top: -30px; */
+  
+}
+
+.imagem-logo{
+  margin-top: 2%;
+  margin-left: 45%;
+
+}
+
+.ul-class{
+    list-style-type: none; /* Remove bullets */
+    text-align: center;
+}
+
+
+.li-nav{
+    display: inline;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+ 
+
+}
+
+.menu{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 16px;
+
+}
+
+.ul-class{
+    
+}
+/* 
+ul li
+{
+    display: inline;
+    margin-left: 40px;
+} */
+
+.card-divs:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    
+}
+
+.img1{
+    /* width: 50%;
+    height: 60%; */
+    /* margin-top: 0.7%;
+    margin-right: 0.7%;
+    margin-left: 0.5%; */
+    width: 100%;
+}
+
+.img2{
+    /* width: 20%;
+    height: 28%; */
+    /* margin-bottom: 19.9%; */
+    width: 100%;
+    
+}
+
+.img3{
+    /* width: 20%;
+    height: 30%; */
+    /* margin-left: -20.2%; */
+    width: 120%;
+   
+}
+
+.img4{
+    /* width: 27%;
+    height: 60%;
+    margin-left: 0.7%; */
+    width: 100%;
+    height: 90%!important;
+}
+
+.card1{
+    display: inline;
+}
+.card2{
+    display: inline;
+    
+}
+
+.card3{
+    display: inline;
+    
+}
+
+.card4{
+    display: inline;
+    
+}
+
+.align-center{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+
+.img-pao{
+    width: 30%;
+    margin-top: 30px;
+    margin-left: 10%;
+    border-radius:20px;
+}
+
+.info-receita{
+    margin-left: 50%;
+    margin-top: -30%;
+    color: #fff;
+    width: 50%!important;
+    height: 20%!important;
+    
+}
+
+.h2-receita{
+    margin-left: 6%;
+}
+
+.tempo{
+    width: 3.5%;
+    margin-top: 2%;
+    margin-left: -1%;
+
+}
+
+.p-time{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 6%;
+    margin-top: -2%;
+}
+
+.p-like{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 6%;
+    margin-top: -2.8%;
+}
+
+.rendimento{
+    width: 3.5%;
+    margin-top: 2%;
+    margin-left: -1%
+}
+
+.likes{
+    width: 3.5%;
+    margin-top: 2.5%;
+    margin-left: -1%
+}
+
+.ingred-icon{
+        width: 6%;
+        margin-top: 0%;
+        margin-left: -42%
+}
+
+.preparo-icon{
+   
+        width: 3%;
+        margin-top: 1%;
+        margin-left: -25%
+}
+
+
+.icons{
+    /* content: "";
+    display: table;
+    clear: both; */
+    height: 10%!important;
+    /* width: 50%; */
+}
+
+
+.img-div{
+    display: inline;
+}
+
+.receita-dia{
+    background: #cfdfd2;
+    height: 1200px;
+}
+
+.inline-recipe{
+    content: "";
+    display: table;
+    clear: both;
+    height: 50%!important;
+    width: 60%!important;
+}
+
+.ingredientes{
+    /* margin-top: 20%; */
+   /* margin-left: 8%; */
+    /* display: block; */
+    color: #fff;
+    font-weight: bolder;
+    font-size: 22px;
+    /* display: inline; */
+   /* width: 50%;
+    height: 40%;*/
+    transform: translate(25%, 50%);
+    float: left;
+    width: 50%;
+    padding: 0px;
+    height: 100%!important;
+} 
+
+.topics{
+    display: block;
+    line-height: 50px;
+    margin-left: 2%;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: -8%;
+
+
+}
+
+.preparo{
+
+  
+    /* margin-left: 50%; */
+    padding: 0%;
+    float: right;
+   /* width: 33.33%;
+    padding: 0px;*/
+    transform: translate(70%,49.2%);
+    width: 50%!important;
+    height: 100%!important;
+}
+    
+
+
+.h2-align{
+    color: #fff;
+    text-align: left;
+    margin-left: 20%;
+    margin-top: 0%;
+    font-size: 30px;
+}
+
+.h2-preparo{
+    color: #fff;
+    text-align: left;
+    margin-left: 8%;
+    font-size: 30px;
+    margin-top:0%;
+ 
+}
+
+.ol-topics{
+    display: block;
+    line-height: 50px;
+    margin-left: 1%;
+    font-weight: bolder;
+    font-size: 20px;
+    margin-top: -0.5%;
+    color: #fff;
+}
+
+.li-topics{
+    /* line-height: 60px; */
+    
+
+}
+
+footer{
+    margin-top: 10px;
+    background: #b8d8c0;
+    height: 200px;
+    width: auto;
+}
+
+@media screen and (min-width: 1441px){
+    .card-divs{
+        
+        margin: 0;
+    }
+    
+    .card1{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+    
+    .img1{
+        margin: 0px;
+        padding: 0px;
+    }
+    .card2{
+       
+    }
+    
+    .img2{
+        margin-top: 50px;
+    }
+    .card3{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .img3{
+        margin-left: -20.1%;
+        padding: 0px;
+    }
+    .card4{
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    .img4{
+        padding: 0px;
+    }
+
+    .align-center{
+        text-align: center;
+        /* padding-top: 20px; */
+        color: #fff;
+    }
+    
+    .img-pao{
+        width: 25%;
+        /* margin-top: 30px;
+        margin-left: 10%; */
+        border-radius:20px;
+    }
+    
+    .info-receita{
+        margin-left: 47%;
+        margin-top: -25%;
+        color: #fff;
+        
+    }
+    
+    .h2-receita{
+        /* margin-left: 6%; */
+    }
+    
+    .tempo{
+        width: 3.5%;
+        /* margin-top: 2%;
+        margin-left: -1%; */
+    
+    }
+    
+    .p-time{
+        font-size: 18px;
+        font-weight: 600;
+        /* margin-left: 6%;
+        margin-top: -2%; */
+    }
+    
+    .p-like{
+        font-size: 18px;
+        font-weight: 600;
+        /* margin-left: 6%;
+        margin-top: -2.8%; */
+    }
+    
+    .rendimento{
+        width: 3.5%;
+        /* margin-top: 2%;
+        margin-left: -1% */
+    }
+    
+    .likes{
+        width: 3.5%;
+        /* margin-top: 2.5%;
+        margin-left: -1% */
+    }
+    
+    .ingred-icon{
+            width: 4%;
+            margin-top: -6.5%;
+            margin-left: 7%;
+            display:flex;
+    }
+    
+    .preparo-icon{
+       
+            width: 5%;
+            margin-top: -5%;
+            margin-left: -10%;
+            display: flex;
+    }
+    
+    
+    
+    
+    
+    .img-div{
+        display: inline;
+        width: 50%;
+    }
+    
+    .receita-dia{
+        background: #cfdfd2;
+        height: 1400px;
+        width: 100%;
+        
+    }
+    
+    .inline-recipe{
+        display: inline;
+    }
+    
+    .ingredientes{
+        margin-top: -33%;
+        margin-left: 10%;
+        display: block;
+        color: #fff;
+        font-weight: bolder;
+        font-size: 22px;
+        /* display: inline; */
+        width: 50%;
+        height: 40%;
+        position:static;
+    }
+    
+    .topics{
+        display: block;
+        line-height: 50px;
+        margin-left: 2%;
+        font-weight: bolder;
+        font-size: 20px;
+    
+    }
+    
+    .preparo{
+    
+        margin-top: -26%; 
+        margin-left: 50%;
+        display: block;
+        width: 50%;
+    }
+    
+    .h2-align{
+        color: #fff;
+       
+        margin-left: 15%;
+        margin-top: 5%;
+        font-size: 30px;
+        
+    }
+    
+    .h2-preparo{
+        color: #fff;
+        text-align: left;
+        margin-left: 8%;
+        font-size: 30px;
+        margin-top:0%;
+     
+    }
+    
+    .ol-topics{
+        display: block;
+        line-height: 50px;
+        margin-left: 1%;
+        font-weight: bolder;
+        font-size: 20px;
+        margin-top: -0.5%;
+        color: #fff;
+    }
+    
+    .li-topics{
+        line-height: 60px;
+        
+    }
+}
+
+
+
