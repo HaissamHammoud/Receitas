@@ -14,7 +14,15 @@ div{
 
 }
 
-
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color:#cfdfd2;
+  }
+  tr:nth-child(even) {
+    background-color: #b8d8c0;
+  }
 
 .header-receitas{
     height: 120px;
@@ -322,7 +330,7 @@ ul li
     
     .info-receita{
         margin-left: 47%;
-        margin-top: -25%;
+        margin-top: -2%;
         color: #fff;
         
     }
@@ -461,7 +469,32 @@ ul li
         line-height: 60px;
         
     }
+
+    .column {
+        float: left;
+        width: 100%;
+        padding: 15px;
+    }
+    .column-3 {
+        float: left;
+        width: 33%;
+        padding: 15px;
+    }
+    .column-2{
+        float: left;
+        width: 40%;
+        padding: 15px;
+    }
+
+    .row:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    @media screen and (max-width: 600px) {
+        .column {
+          width: 100%;
+        }
+    }
 }
-
-
-
