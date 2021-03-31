@@ -1,28 +1,21 @@
 @charset "UTF-8";
 
 html, body{
-    height: 100%;
-    width: 100%;
-    margin: 0;
+    /* height: 100%;*/
+    /* width: 100%; */
+    /*margin: 0; */
 
     font-family: 'Open Sans', sans-serif;
 
 }
+
 
 div{
     height: 100%;
 
 }
 
-table {
-    font-family: arial, sans-serif;
-    border-collapse: collapse;
-    width: 100%;
-    background-color:#cfdfd2;
-  }
-  tr:nth-child(even) {
-    background-color: #b8d8c0;
-  }
+
 
 .header-receitas{
     height: 120px;
@@ -78,36 +71,50 @@ ul li
     margin-left: 40px;
 } */
 
-.card-divs{
-    display: inline;
+.card-divs:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card{
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+    
 }
 
 .img1{
-    width: 50%;
-    height: 60%;
-    margin-top: 0.7%;
+    /* width: 50%;
+    height: 60%; */
+    /* margin-top: 0.7%;
     margin-right: 0.7%;
-    margin-left: 0.5%;
+    margin-left: 0.5%; */
+    width: 100%;
 }
 
 .img2{
-    width: 20%;
-    height: 28%;
-    margin-bottom: 19.9%;
+    /* width: 20%;
+    height: 28%; */
+    /* margin-bottom: 19.9%; */
+    width: 100%;
     
 }
 
 .img3{
-    width: 20%;
-    height: 30%;
-    margin-left: -20.2%;
-    
+    /* width: 20%;
+    height: 30%; */
+    /* margin-left: -20.2%; */
+    width: 120%;
+   
 }
 
 .img4{
-    width: 27%;
+    /* width: 27%;
     height: 60%;
-    margin-left: 0.7%;
+    margin-left: 0.7%; */
+    width: 100%;
+    height: 90%!important;
 }
 
 .card1{
@@ -145,6 +152,8 @@ ul li
     margin-left: 50%;
     margin-top: -30%;
     color: #fff;
+    width: 50%!important;
+    height: 20%!important;
     
 }
 
@@ -199,7 +208,13 @@ ul li
 }
 
 
-
+.icons{
+    /* content: "";
+    display: table;
+    clear: both; */
+    height: 10%!important;
+    /* width: 50%; */
+}
 
 
 .img-div{
@@ -212,20 +227,29 @@ ul li
 }
 
 .inline-recipe{
-    display: inline;
+    content: "";
+    display: table;
+    clear: both;
+    height: 50%!important;
+    width: 60%!important;
 }
 
 .ingredientes{
-    margin-top: -55%;
-    margin-left: 8%;
-    display: block;
+    /* margin-top: 20%; */
+   /* margin-left: 8%; */
+    /* display: block; */
     color: #fff;
     font-weight: bolder;
     font-size: 22px;
     /* display: inline; */
+   /* width: 50%;
+    height: 40%;*/
+    transform: translate(25%, 50%);
+    float: left;
     width: 50%;
-    height: 40%;
-}
+    padding: 0px;
+    height: 100%!important;
+} 
 
 .topics{
     display: block;
@@ -233,20 +257,31 @@ ul li
     margin-left: 2%;
     font-weight: bolder;
     font-size: 20px;
+    margin-top: -8%;
+
 
 }
 
 .preparo{
 
-    margin-top: -35%;
-    margin-left: 50%;
+  
+    /* margin-left: 50%; */
+    padding: 0%;
+    float: right;
+   /* width: 33.33%;
+    padding: 0px;*/
+    transform: translate(70%,49.2%);
+    width: 50%!important;
+    height: 100%!important;
 }
+    
+
 
 .h2-align{
     color: #fff;
     text-align: left;
     margin-left: 20%;
-    margin-top: 5%;
+    margin-top: 0%;
     font-size: 30px;
 }
 
@@ -270,8 +305,16 @@ ul li
 }
 
 .li-topics{
-    line-height: 60px;
+    /* line-height: 60px; */
     
+
+}
+
+footer{
+    margin-top: 10px;
+    background: #b8d8c0;
+    height: 200px;
+    width: auto;
 }
 
 @media screen and (min-width: 1441px){
@@ -330,7 +373,7 @@ ul li
     
     .info-receita{
         margin-left: 47%;
-        margin-top: -2%;
+        margin-top: -25%;
         color: #fff;
         
     }
@@ -470,26 +513,15 @@ ul li
         
     }
 
-    .column {
-        float: left;
-        width: 100%;
-        padding: 15px;
-    }
-    .column-3 {
-        float: left;
-        width: 33%;
-        padding: 15px;
-    }
-    .column-2{
-        float: left;
-        width: 40%;
-        padding: 15px;
-    }
-
-    .row:after {
-        content: "";
-        display: table;
-        clear: both;
+    .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
     }
 
     @media screen and (max-width: 600px) {
@@ -508,14 +540,14 @@ ul li
           }
     }
 
-    .button {
-        background-color: #4CAF50; /* Green */
-        border: none;
-        color: white;
-        padding: 15px 32px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        background-color:#cfdfd2;
+      }
+      tr:nth-child(even) {
+        background-color: #b8d8c0;
       }
 }
+
