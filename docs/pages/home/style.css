@@ -1,5 +1,6 @@
 body {
     color: #fff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #content {
@@ -21,6 +22,11 @@ header {
     /*1 start point 13 end point*/
     text-align: center;
     padding-top: 3%;
+}
+
+header .imagem-logo{
+    margin-left: -30%;
+    width: 15%;
 }
 
 section {
@@ -135,6 +141,17 @@ nav {
 footer {
     grid-column: 1/13;
     grid-row: 10/11;
+    
+}
+
+footer p{
+    text-align: center;
+}
+
+footer .logo-footer{
+    width: 15%;
+    padding-top: 5%;
+    padding-left: 43%;
 }
 
 #grid {
@@ -211,6 +228,14 @@ h1 {
         padding-top: 10%;
     }
 
+    header .imagem-logo{
+        margin-left: -5%;
+    }
+
+    .imagem-logo{
+        width: 30%!important;
+    }
+
     a {
         padding-left: 1%;
         padding-right: 2%;
@@ -251,5 +276,11 @@ h1 {
 
     #ingred-list{
         line-height: 30px;
+    }
+
+    footer .logo-footer{
+        width: 70%;
+        padding-top: 5%;
+        padding-left: 15%;
     }
 }
