@@ -30,6 +30,7 @@ a {
     color: #fff;
     padding-left: 5%;
     padding-right: 5%;
+    padding-top: -15%;
     font-size: 22px;
 }
 
@@ -77,7 +78,7 @@ td{
 
 header .imagem-logo{
     margin-left: -30%;
-    width: 15%; 
+    width: 13%; 
 }
 
 .first-div{
