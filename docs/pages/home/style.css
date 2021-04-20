@@ -29,6 +29,31 @@ section {
     text-align: center;
 }
 
+.navbar-receitas{
+    height: 70px;
+    width: auto;
+    background: #cfdfd2;
+}
+.imagem-logo{
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    padding-top: 20px;
+}
+.ul-class{
+    list-style-type: none; /* Remove bullets */
+    text-align: center;
+}
+
+.li-nav{
+    display: inline;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
 #s1 {
     grid-column: 1/5;
     border-radius: 5%;

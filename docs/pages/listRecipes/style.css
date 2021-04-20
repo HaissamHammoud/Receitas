@@ -39,15 +39,12 @@ table {
       font-size: 16px;
     }
 
-
-
 .header-receitas{
-    height: 120px;
-    width: auto;
+    height: 100%;
+    border-collapse: collapse;
+    width: 100%;
     background: #b8d8c0;
-    
 }
-
 .navbar-receitas{
     height: 70px;
     width: auto;
@@ -76,8 +73,6 @@ table {
     display: inline;
     margin: 20px;
     font-family: 'Open Sans', sans-serif;
- 
-
 }
 
 .menu{
