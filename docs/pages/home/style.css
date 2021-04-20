@@ -22,11 +22,13 @@ header {
     /*1 start point 13 end point*/
     text-align: center;
     padding-top: 3%;
+    height: 65px;
 }
 
 header .imagem-logo{
     margin-left: -30%;
     width: 15%;
+    margin-top: -25px;
 }
 
 section {
@@ -40,15 +42,15 @@ section {
     width: auto;
     background: #cfdfd2;
 }
-.imagem-logo{
+/* .imagem-logo{
     margin-left: auto;
     margin-right: auto;
-    width: 60%;
+    width: 15%;
     max-width: 600px;
     height: auto;
     display: block;
     padding-top: 20px;
-}
+} */
 .ul-class{
     list-style-type: none; /* Remove bullets */
     text-align: center;
