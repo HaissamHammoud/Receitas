@@ -1,2 +1,4 @@
 .history
 .vscode
+backend/node_modules
+backend/src/database/db.sqlite
