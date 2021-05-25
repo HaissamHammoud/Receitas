@@ -1,0 +1,16 @@
+[
+    {
+       "id": 1,
+        "name": "Strogonoff de Frango",
+        "image": true,
+        "description":"uma descrição",
+        "imagem":"../../images/strogonoff-de-frango.png"
+    },
+   {
+        "id": 2,
+        "name": "Sfiha de Frango",
+        "image": true,
+        "description":"uma descrição2",
+        "imagem":"../../images/esfirra-arabe-50304.png"
+    }
+]
