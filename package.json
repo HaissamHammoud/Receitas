@@ -1,0 +1,23 @@
+{
+  "name": "receitas",
+  "version": "1.0.0",
+  "description": "Site de receitas",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "start": "json.server --watch produtos.json --port 9000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaissamHammoud/Receitas.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaissamHammoud/Receitas/issues"
+  },
+  "homepage": "https://github.com/HaissamHammoud/Receitas#readme"
+}
