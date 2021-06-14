@@ -32,9 +32,9 @@
     </div>
     <header>
       <img src="../../images/logo2.png" class="imagem-logo">
-      <a href="../home/index.html">Home</a>
-      <a href="../listRecipes/list-recipe.html">Receitas</a>
-      <a href="#" onclick="clickLogin()">Login</a>
+      <a href="../home/index.html" onclick="clickHome()" id="home">Home</a>
+      <a href="../listRecipes/list-recipe.html" onclick="clickRecipe() "id="recipe">Receitas</a>
+      <a onclick="clickLogin()" id="login">Login</a>
     </header>
 
     <section id="s1">
@@ -44,7 +44,7 @@
       <img class="imgwidth" src="../../images/esfirra-arabe-50304.png" alt="">
     </section>
     <section id="s3">
-      <a href="../show-recipe/show-recipe.html">
+      <a onclick="clickRecipeDay()">
         <img class="imgwidth" src="../../images/strogonoff-de-frango.png" alt="">
       </a>
     </section>

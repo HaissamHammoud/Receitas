@@ -8,6 +8,8 @@
     <link rel="stylesheet" href="/pages/show-recipe/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+    <script src="../script.js" type="text/javascript"></script>
 
     <title>Receitas</title>
 </head>
@@ -16,9 +18,9 @@
        
     <header>
         <img src="../../images/logo2.png" class="imagem-logo">
-        <a href="../home/index.html">Home</a>
-        <a href="../listRecipes/list-recipe.html">Receitas</a>
-        <a href="#">Login</a>
+        <a onclick="clickHome()" id="home">Home</a>
+        <a onclick="clickRecipe() "id="recipe">Receitas</a>
+        <a onclick="clickLogin()" id="login">Login</a>
       </header>
     <!-- ALTERADO -->
     <!-- <header class="header-receitas">

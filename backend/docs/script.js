@@ -1,7 +1,24 @@
-function clickLogin(e){
-    alert('oi');
-    e.preventDefault();
+function clickHome(){
+    let newUrl = "../home/index.html";
+    document.location.href = newUrl;
 }
+
+function clickRecipe(){
+    let newUrl = "../listRecipes/list-recipe.html";
+    document.location.href = newUrl;
+}
+
+function clickLogin(){
+    let newUrl = "/#";
+    document.location.href = newUrl;
+}
+
+function clickRecipeDay(){
+    let newUrl = "../show-recipe/show-recipe.html";
+    document.location.href = newUrl;
+}
+
+
 
 $.getJSON("../data/mainpage.json", function(result){
     document.getElementById('first').innerHTML = result[0].description;
