@@ -15,4 +15,7 @@ $.getJSON("../data/mainpage.json", function(result){
     document.getElementById('ingred5').innerHTML = result[8].ingrediente;
     document.getElementById('ingred6').innerHTML = result[9].ingrediente;
     document.getElementById('ingred7').innerHTML = result[10].ingrediente;
+    document.getElementById('icon1').innerHTML = result[11].tempo;
+    document.getElementById('icon2').innerHTML = result[11].rendimento;
+    document.getElementById('icon3').innerHTML = result[11].likes;
 });
