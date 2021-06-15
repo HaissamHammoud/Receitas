@@ -1,0 +1,38 @@
+[
+  {
+    "id": 0,
+    "nome": "Strogonoff de frango",
+    "resumo": "Strogonoff"
+  },
+  {
+    "id": 1,
+    "nome": "Pão de ló",
+    "resumo": "um pão de ló"
+  },
+  {
+    "id": 2,
+    "nome": "Esfiha",
+    "resumo": "Esfiha árabe tradicional"
+  },
+  {
+    "id": 3,
+    "nome": "Risoto",
+    "resumo": "Risoto caseiro"
+  },
+  {
+    "id": 4,
+    "nome": "Polenta",
+    "resumo": "Polenta italiana da Nona"
+  },
+  {
+    "id": 5,
+    "nome": "Torta de Banana",
+    "resumo": "Torta de banana"
+  },
+  {
+    "id": 6,
+    "nome": "Bolo de Morango",
+    "resumo": "Bolo de morango"
+  }
+
+]
