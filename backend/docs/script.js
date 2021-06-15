@@ -1,42 +1,13 @@
 const main = document.querySelector('#main1');
-console.log(main);
-
 const body = document.querySelector('#body');
-
 const bodyshow = document.querySelector('#bodyshow');
-fetch('/pages/show-recipe/mainshow.html')
-    .then(res => res.text())
-    .then(texto => {
-        bodyshow.innerHTML = texto;
-    });
-fetch('/pages/listRecipes/mainlist.html')
-    .then(res => res.text())
-    .then(texto => {
-        body.innerHTML = texto;
-        $.getJSON("../data/recipepage.json", function(data){
-            document.querySelector('#n1').innerHTML = data[0].nome;
-            document.querySelector('#r1').innerHTML = data[0].resumo;
-            document.querySelector('#n2').innerHTML = data[1].nome;
-            document.querySelector('#r2').innerHTML = data[1].resumo;
-            document.querySelector('#n3').innerHTML = data[2].nome;
-            document.querySelector('#r3').innerHTML = data[2].resumo;
-            document.querySelector('#n4').innerHTML = data[3].nome;
-            document.querySelector('#r4').innerHTML = data[3].resumo;
-            document.querySelector('#n5').innerHTML = data[4].nome;
-            document.querySelector('#r5').innerHTML = data[4].resumo;
-            document.querySelector('#n6').innerHTML = data[5].nome;
-            document.querySelector('#r6').innerHTML = data[5].resumo;
-            document.querySelector('#n7').innerHTML = data[6].nome;
-            document.querySelector('#r7').innerHTML = data[6].resumo;
 
-        });
-
-    });
+//Chamando main dinamicamente
 fetch('/pages/home/main.html')
     .then(res => res.text())
     .then(texto => {
         main.innerHTML = texto;
-
+        //Chamando JSON dinamicamente
         $.getJSON("../data/mainpage.json", function(result){
             console.log(result);
             document.querySelector('#first').innerHTML = result[0].description;
@@ -56,7 +27,38 @@ fetch('/pages/home/main.html')
         });
     });
 
+//Chamando body do list dinamicamente
+fetch('/pages/listRecipes/mainlist.html')
+    .then(res => res.text())
+    .then(texto => {
+        body.innerHTML = texto;
+        //Chamando JSON dinamicamente
+        $.getJSON("../data/recipepage.json", function(data){
+            document.querySelector('#n1').innerHTML = data[0].nome;
+            document.querySelector('#r1').innerHTML = data[0].resumo;
+            document.querySelector('#n2').innerHTML = data[1].nome;
+            document.querySelector('#r2').innerHTML = data[1].resumo;
+            document.querySelector('#n3').innerHTML = data[2].nome;
+            document.querySelector('#r3').innerHTML = data[2].resumo;
+            document.querySelector('#n4').innerHTML = data[3].nome;
+            document.querySelector('#r4').innerHTML = data[3].resumo;
+            document.querySelector('#n5').innerHTML = data[4].nome;
+            document.querySelector('#r5').innerHTML = data[4].resumo;
+            document.querySelector('#n6').innerHTML = data[5].nome;
+            document.querySelector('#r6').innerHTML = data[5].resumo;
+            document.querySelector('#n7').innerHTML = data[6].nome;
+            document.querySelector('#r7').innerHTML = data[6].resumo;
+        });
+    });
 
+//Chamando body do show dinamicamente
+fetch('/pages/show-recipe/mainshow.html')
+    .then(res => res.text())
+    .then(texto => {
+        bodyshow.innerHTML = texto;
+    });
+
+//Funções para alterar path dinamicamente
 function clickHome(){
     let newUrl = "../home/index.html";
     document.location.href = newUrl;
@@ -76,6 +78,3 @@ function clickRecipeDay(){
     let newUrl = "../show-recipe/show-recipe.html";
     document.location.href = newUrl;
 }
-
-
-
