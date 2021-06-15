@@ -1,0 +1,125 @@
+{
+  "receita": 
+  [
+    {
+      "id" : 0,
+      "name" : "Strogonoff de Frango",
+      "description" : "Um delicioso prato para o almoço de domingo.",
+      "image": "../docs/images/strogonoff-de-frango.png",
+      "resumo": "Strogonoff",
+      "etapas" : [
+        {
+          "id": "0",
+          "etapa": "Etapa 1"
+        },
+        {
+          "id": "1",
+          "etapa": "Etapa 2"
+        },
+        {
+          "id": "2",
+          "etapa": "Etapa 3"
+        }
+      ],
+      "tempo" : " 30 min",
+      "rendimento" : "10 porções",
+      "likes" : "80 curtidas"
+    },
+    {
+      "id" : 1,
+      "name" : "Pão de Forma Caseiro",
+      "description" : "Uma ótima opção para o café da manhã.",
+      "image": "../docs/images/paoforma.jpg",
+      "resumo": "pão de ló",
+      "etapas" : [
+        {
+          "id": "0",
+          "etapa": "Etapa 1"
+        },
+        {
+          "id": "1",
+          "etapa": "Etapa 2"
+        },
+        {
+          "id": "2",
+          "etapa": "Etapa 3"
+        }
+      ],
+      "tempo" : " 30 min",
+      "rendimento" : "10 porções",
+      "likes" : "80 curtidas"
+    },
+    {
+      "id" : 2,
+      "name" : "Bolo de cenoura",
+      "description" : "Nada melhor que um bolo de cenoura para o lanche da tarde.",
+      "image": "../backend/docs/images/bolo.jpg",
+      "resumo" : "Bolo de cenoura",
+      "etapas" : [
+        {
+          "id": "0",
+          "etapa": "Etapa 1"
+        },
+        {
+          "id": "1",
+          "etapa": "Etapa 2"
+        },
+        {
+          "id": "2",
+          "etapa": "Etapa 3"
+        }
+      ],
+      "tempo" : " 30 min",
+      "rendimento" : "10 porções",
+      "likes" : "80 curtidas"
+    },
+    {
+      "id" : 3,
+      "name" : "Risoto",
+      "description" : "Nada melhor que um risoto para o almoço.",
+      "image": "../backend/docs/images/risoto.jpg",
+      "resumo" : "Risoto",
+      "etapas" : [
+        {
+          "id": "0",
+          "etapa": "Etapa 1"
+        },
+        {
+          "id": "1",
+          "etapa": "Etapa 2"
+        },
+        {
+          "id": "2",
+          "etapa": "Etapa 3"
+        }
+      ],
+      "tempo" : " 30 min",
+      "rendimento" : "10 porções",
+      "likes" : "80 curtidas"
+    },
+    {
+      "id" : 4,
+      "name" : "Polenta",
+      "description" : "Polenta italiana da Nona.",
+      "image": "../backend/docs/images/polenta.jpg",
+      "resumo" : "Polenta",
+      "etapas" : [
+        {
+          "id": "0",
+          "etapa": "Etapa 1"
+        },
+        {
+          "id": "1",
+          "etapa": "Etapa 2"
+        },
+        {
+          "id": "2",
+          "etapa": "Etapa 3"
+        }
+      ],
+      "tempo" : " 30 min",
+      "rendimento" : "10 porções",
+      "likes" : "80 curtidas"
+    }
+  ]
+}

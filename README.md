@@ -8,3 +8,6 @@ Colaboradores:
 - Haissam Fawaz
 
 -site: https://haissamhammoud.github.io/Receitas/
+
+
+To run database run 
